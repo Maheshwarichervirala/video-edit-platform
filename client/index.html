@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VideoEdit Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 🔥 HEADER -->
+    <header>
+        <h1>🎬 VideoEdit Pro</h1>
+        <button onclick="loadEditors()">Browse Editors</button>
+    </header>
+
+    <!-- 🚀 HERO -->
+    <section class="hero">
+        <h2>Hire Professional Video Editors</h2>
+        <p>Find skilled editors for YouTube, Reels & Films</p>
+    </section>
+
+    <!-- ➕ ADD EDITOR FORM -->
+    <section class="form-section">
+        <h2>Add Editor</h2>
+
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="text" id="skill" placeholder="Enter Skill">
+
+        <button onclick="addEditor()">Add Editor</button>
+    </section>
+
+    <!-- 👨‍💻 EDITORS LIST -->
+    <section>
+        <h2>Editors</h2>
+        <div id="editors"></div>
+    </section>
+
+    <!-- 🤖 AI TOOLS -->
+    <section class="tools">
+        <h2>AI Video Tools</h2>
+
+        <a href="https://runwayml.com" target="_blank">Runway</a>
+        <a href="https://descript.com" target="_blank">Descript</a>
+        <a href="https://capcut.com" target="_blank">CapCut</a>
+    </section>
+
+</body>
+
+<script src="script.js"></script>
+</html>

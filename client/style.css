@@ -1,0 +1,81 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background: #020617;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to right, #2563eb, #9333ea);
+}
+
+/* FORM */
+.form-section {
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    background: #22c55e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* EDITOR CARDS */
+#editors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #1e293b;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* AI TOOLS */
+.tools {
+    text-align: center;
+    padding: 20px;
+}
+
+.tools a {
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    background: #334155;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
